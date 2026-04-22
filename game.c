@@ -16,6 +16,8 @@
 //place function prototypes here
 void function13AG(void);
 
+void printStudent30(void);
+
 void printInitialsAjewett(void);
 
 void jgFun(void);
@@ -192,6 +194,7 @@ int main(int argc, char *argv[])
 			case 30:
 			{
 				puts("room30");
+				printStudent30();
 				break;
 			}
 			case 31:
@@ -436,6 +439,11 @@ void function13AG(void)
 	printf("AG\n");
 }
 
+void printStudent30(void)
+{
+	printf("Student initials CP\n");
+	return;
+}
 void printInitialsAjewett(void)
 {
 	printf("AJ\n");
