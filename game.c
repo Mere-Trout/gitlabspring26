@@ -15,12 +15,14 @@
 
 //place function prototypes here
 
+void ip21(void);
 
 
+void rtFun(void);
 
+void JLeyva(void);
 
-
-
+void fish(void);
 
 void printStudent30(void);
 
@@ -31,11 +33,8 @@ void jgFun(void);
 
 
 
-
-
-
-
 void brooklynstitt(void);
+
 
 int main(int argc, char *argv[])
 {
@@ -103,6 +102,7 @@ int main(int argc, char *argv[])
 			}
 			case 10:
 			{
+				fish();
 				puts("room10");
 				break;
 			}
@@ -158,6 +158,7 @@ int main(int argc, char *argv[])
 			}
 			case 21:
 			{
+				ip21();
 				puts("room21");
 				break;
 			}
@@ -331,11 +332,13 @@ int main(int argc, char *argv[])
 			}
 			case 56:
                         {
-                                puts("room56");
+                                JLeyva();
+				puts("room56");
                                 break;
                         }
 			case 57:
                         {
+				rtFun();
                                 puts("room57");
                                 break;
                         }
@@ -452,6 +455,27 @@ void brooklynstitt(void)
 	printf("Initials: BAS\n\n");
 }
 
+void ip21(void)
+{
+	printf("IP\n");
+}
+
+void rtFun(void)
+{
+	printf("RT");
+}
+
+void JLeyva(void)
+{
+	printf("JL");
+}
+
+void fish(void) 
+{
+	printf("JF");
+
+}
+
 void printStudent30(void)
 {
 	printf("Student initials CP\n");
@@ -466,5 +490,4 @@ void printInitialsAjewett(void)
 void jgFun(void)
 {
 	printf("JGB");	
-
 }
