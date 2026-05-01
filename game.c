@@ -46,7 +46,7 @@ void PogoAM(void);
 void room49game(void);
 
 void dleyva14(void);
-
+void AMaderaFun(void);
 
 int main(int argc, char *argv[])
 {
@@ -172,6 +172,7 @@ int main(int argc, char *argv[])
 			}
 			case 20:
 			{
+				AMaderaFun();
 				puts("room20");
 				break;
 			}
@@ -506,6 +507,10 @@ void rgarcia_fun(void)
 	printf("RJG");
 }
 
+void AMaderaFun(void)
+{
+	printf("AMadera\n");
+}
 
 
 void ls(void)
