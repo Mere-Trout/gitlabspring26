@@ -51,17 +51,12 @@ void printInitialsSMarkos(void);
 void brooklynstitt(void);
 void PogoAM(void);
 void aaGM(void);
-
 void room49game(void);
-
 void dleyva14(void);
+void stanPush(void);
 void printdAfeworkIntials(void);
-
 void kwillett48(void);
-
 void ncInitial(void);
-
-
 
 int main(int argc, char *argv[])
 {
@@ -319,6 +314,7 @@ int main(int argc, char *argv[])
 			case 43:
 			{
 				puts("room43");
+				stanPush();
 				break;
 			}
 			case 44:
@@ -694,6 +690,8 @@ void ncInitial(void)
 
 
 
-
-
+void stanPush(void)
+{
+	puts(" S J \n");
+}
 
