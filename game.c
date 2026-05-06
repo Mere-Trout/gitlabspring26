@@ -3456,11 +3456,11 @@ void coolGame()
 			    break;
 			
 			  case 3:
-			    printf("You end up drowning :()");
+			    printf("You end up drowning :(\n");
 			    break;
 			
 			  caseTree:
-			    printf("You end up drowning :(");
+			    printf("You end up drowning :(\n");
 			    break;
 			
 			  motoWithGear:
@@ -3589,7 +3589,6 @@ void coolGame()
 			    break;
 	  }
 }
-
 int iAmLazy(int choices)
 {
   int option = 0;
